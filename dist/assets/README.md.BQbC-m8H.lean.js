@@ -1,0 +1,4 @@
+import{_ as a,c as t,a0 as r,o as s}from"./chunks/framework.CGHvQLJz.js";const u=JSON.parse('{"title":"taskgraph-website","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),o={name:"README.md"};function p(n,e,d,i,c,h){return s(),t("div",null,e[0]||(e[0]=[r(`<h1 id="taskgraph-website" tabindex="-1">taskgraph-website <a class="header-anchor" href="#taskgraph-website" aria-label="Permalink to &quot;taskgraph-website&quot;">​</a></h1><p>static website for taskgraph hosted on github</p><h2 id="usage" tabindex="-1">Usage <a class="header-anchor" href="#usage" aria-label="Permalink to &quot;Usage&quot;">​</a></h2><p>To run the dev server,</p><pre><code>$ npm run docs:dev
+</code></pre><p>To build,</p><pre><code>$ npm run docs:build
+</code></pre><p>To preview,</p><pre><code>$ npm run docs:preview
+</code></pre>`,9)]))}const m=a(o,[["render",p]]);export{u as __pageData,m as default};
