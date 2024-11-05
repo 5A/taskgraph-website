@@ -53,7 +53,7 @@ Finally, go back to the root directory of this project, and run
 
     $ uvicorn backend.main:app --log-config logging_helper/uvicorn_log.config.yaml
 
-This should give you a local backend API server at http://localhost:8000/
+This should give you a local backend API server at `http://localhost:8000/`
 
 ## Local Frontend Preview Server
 
@@ -67,7 +67,7 @@ Inside the repo root directory, start the dev server by
 
     $ npm run dev
 
-Then, go to http://localhost:8080 to access the web GUI.
+Then, go to `http://localhost:8080` to access the web GUI.
 
 ## Basic Usage
 
