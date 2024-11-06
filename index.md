@@ -6,11 +6,17 @@ hero:
   name: "TaskGraph"
   text: "A todolist app with graph structure."
   tagline: Open source, self hosted, and decentralized
+  image:
+    src: /static/index-hero-image.png
+    alt: TaskGraph
   actions:
+    # - theme: brand
+    #   text: Live Demo
+    #   link: https://demo.taskgraph.org
     - theme: brand
       text: Get Started
       link: /tutorial
-    - theme: brand
+    - theme: alt
       text: Documentation
       link: /documentation/overview
     - theme: alt
@@ -25,3 +31,22 @@ features:
   - title: Free and Open
     details: The program is open source and free to use or modify. Standard formats and open protocols are used to store and transmit your data. Move in or move out easily at any time.
 ---
+
+<style>
+:root {
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #3451b2 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>
