@@ -7,7 +7,7 @@ hero:
   text: "A todolist app with graph structure."
   tagline: Open source, self hosted, and decentralized
   image:
-    src: /static/index-hero-image.png
+    src: index-hero-image.png
     alt: TaskGraph
   actions:
     # - theme: brand
